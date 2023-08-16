@@ -1,0 +1,171 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 760px){
+    /* For desktop: */
+    .navbar{
+      background-color: #c68da2;
+    }
+    .nav-item{
+         margin-left: 20px;
+         padding: 5px;
+         font-size: 1.2rem;
+    }
+    .nav-item:hover{
+      box-shadow: rgba(149, 215, 228, 0.2) 0px 8px 24px;
+      color: rgb(136, 173, 185);
+      font-family: open-sans;
+    }
+  }
+  
+      .jumbo{
+      background-image: url("img.jpg");
+      background-repeat: no-repeat;
+      position: relative;
+      /* background-position: center center; */
+      background-size: cover;
+      height: 450px;
+    }
+    .display-4{
+      position: relative;
+      width: 700px;
+      padding: 30px;
+      margin: auto;
+      opacity: 0.8;
+     
+  
+    }
+    #hero-text{
+      font-size: 15px;
+      margin-top: 50px;
+    }
+    .btn-1{
+      border-radius: 10px;
+      border: 2px solid #ac7ea1;
+    }
+    .btn-1:hover{
+      transition-duration: 0.4s;
+      background-color: #010408;
+    }
+    #about{
+        background-color: rgb(169, 122, 151);
+      padding-top: 40px;
+    }
+    .h1text{
+      font-size: 45px;
+      font-weight: 500;
+      font-family: open-sans ;
+    }
+    
+    
+    .vision{
+      padding-top: 20px;
+      margin: auto;
+      font-size: 45px;
+      font-weight: 500;
+      font-family: open-sans ;
+      background-image: url("img7.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+    }
+  
+    .h1text3{
+      color: rgb(2, 7, 7);
+      padding-left: 30px;
+      padding-top: 18px;
+      padding-bottom: 50px;
+    }
+    .h1text4{
+      color: rgb(12, 16, 16);
+      padding-left: 30px;
+      padding-top: 20px;
+      font-size: 2rem;
+  
+    }
+    #team-des{
+      color: rgb(12, 17, 17);
+      padding-left: 30px;
+      font-size: 1rem;
+      line-height: 25px;
+    }
+    #team-des2{
+      color: azure;
+      padding-left: 30px;
+      padding-top: 20px;
+      font-size: 1rem;
+      line-height: 25px;
+    }
+    .line{
+      width: 100%;
+      border-bottom: 1px solid #000;
+      margin-bottom: 20px;
+    }
+  
+    #hero-text2{
+      font-size: 18px;
+      margin-top: 33px;
+      line-height: 22px;
+    }
+    .card-text{
+      line-height: 22px;
+      font-size: 17px;
+    }
+    .card-title{
+      font-size: 2rem;
+      padding-bottom: 10px; 
+      font-weight: bold;
+    }
+    #service{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-top: 15px;
+      font-size: 45px;
+      font-weight: 500;
+      font-family: open-sans ;
+    }
+  
+    #vision-text{
+      font-size: 20px;
+      font-family: open-sans;
+      color: aliceblue;
+      padding-left: 50px;
+      padding-top: 50px;
+      line-height: 25px;
+    }
+    .button-left{
+      padding-left: 50px;
+      padding-top: 20px;
+    }
+    .btn-primary:hover{
+      box-shadow: rgba(41, 41, 39, 0.2) 0px 8px 24px;
+    }
+    .team{
+      background: rgb(183, 109, 142);
+      background: linear-gradient(0deg, rgb(199, 126, 166) 26%, rgb(9, 10, 10) 92%);
+    }
+  .rowcolor{
+  background: rgb(179, 129, 153);
+      background: linear-gradient(0deg, rgb(162, 111, 130) 26%, rgb(236, 236, 231) 92%);
+  }
+  .input-group{
+    background-color: #ba7a98;
+  height: 200px;
+  }
+  .mess{
+    background-color: rgb(179, 115, 147);
+  padding-bottom: 20px;
+  font-size: 25px;
+  }
+  
+  
+  .foot{
+    background-image: url(img11.jpg);
+  color: rgb(2, 8, 14);
+  background-color: rgb(98, 200, 207);
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  }
